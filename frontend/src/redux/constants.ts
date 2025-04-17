@@ -1,0 +1,12 @@
+export const BASE_URL = "";
+export const AUTH_URL = "/api/v1/auth";
+export const ADMIN_URL = "/api/v1/admin";
+export const USER_URL = "/api/v1/user";
+export const STAFF_URL = "/api/v1/staff";
+export const TRAINER_URL = "/api/v1/trainer";
+export const UPLOAD_URL = "/api/v1/upload";
+export const PRODUCT_URL = "/api/v1/product";
+export const PACKAGE_URL = "/api/v1/package";
+export const PACKAGE_PAYMENT_URL = "/api/v1/payment/packagePayment";
+export const PRODUCT_PAYMENT_URL = "/api/v1/payment/productPayment";
+export const CHAT_URL = "/api/v1/chat";
