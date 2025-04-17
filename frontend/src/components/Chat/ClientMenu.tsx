@@ -1,5 +1,5 @@
 import { BsChatLeftDots } from "react-icons/bs";
-import { Chat, CurrentUser, User } from "../../types/types";
+import { Chat, User } from "../../types/types";
 import Loader from "../Loader";
 import { useCreateChatMutation } from "../../redux/api/chatApiSlice";
 import { isApiError } from "../../utils/isApiError";
@@ -12,7 +12,6 @@ type FormProps = {
   clientsLoading: boolean;
   setOpenedChat: (chat: Chat) => void;
   refetch: () => void;
-  openedChat: any;
 };
 
 const ClientMenu = ({
@@ -22,7 +21,6 @@ const ClientMenu = ({
   clients,
   setOpenedChat,
   refetch,
-  openedChat,
 }: FormProps) => {
   const [createChatApiHandler, { isLoading }] = useCreateChatMutation();
 

@@ -171,7 +171,6 @@ const TrainerChat = () => {
             clientsLoading={clientsLoading}
             setOpenedChat={setOpenedChat}
             refetch={refetchChats}
-            openedChat={openedChat}
           />
         </div>
       </aside>
