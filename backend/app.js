@@ -35,6 +35,7 @@ import socketSetup from "./sockets/socketSetup.js";
 // app
 dotenv.config();
 const app = express();
+const __dirname = path.resolve();
 const server = http.createServer(app); // wrap express app in HTTP server
 
 cloudinary.config({
