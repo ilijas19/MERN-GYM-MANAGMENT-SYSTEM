@@ -52,7 +52,7 @@ app.use(fileUpload({ useTempFiles: true }));
 app.use(
   cors({
     origin: [
-      "https://mern-e-commerce-6h6l.onrender.com", // Add your Render frontend URL
+      "https://mern-gym-managment-system.onrender.com", // Add your Render frontend URL
       "http://localhost:5173", // For local development
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
@@ -90,7 +90,7 @@ app.use(errorHandler);
 const io = new Server(server, {
   cors: {
     origin: [
-      "https://mern-e-commerce-6h6l.onrender.com",
+      "https://mern-gym-managment-system.onrender.com",
       "http://localhost:5173",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE"],
