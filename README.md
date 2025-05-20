@@ -1,6 +1,6 @@
-# 🏋️ GymFlow – MERN Stack Gym Management System
+#  MERN Stack Gym Management System
 
-## GymFlow is a powerful and modern gym management system built with the **MERN stack**. Designed for front desk management with multi-role access and real-time chat between Trainers and Clients.
+## Gym management system built with the **MERN stack**. Designed for front desk management with multi-role access and real-time chat between Trainers and Clients.
 
 🌐 **Live Demo:** [https://mern-gym-managment-system.onrender.com](https://mern-gym-managment-system.onrender.com)
 
