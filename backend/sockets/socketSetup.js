@@ -16,14 +16,15 @@ const socketSetup = (io, socket) => {
     });
 
     socket.join(roomName);
-    console.log("rom", roomName);
   });
 
   socket.on("send-message", async ({ roomName, message }) => {
     io.to(roomName).emit("receive-message", message);
     const trainerId = roomName.toString().split("&")[0];
     const trainer = getUser(trainerId);
-    io.to(trainer.socketId).emit("notification", message.chat);
+    if (trainer) {
+      io.to(trainer.socketId).emit("notification", message.chat);
+    }
     await CreateMessage(message);
   });
 

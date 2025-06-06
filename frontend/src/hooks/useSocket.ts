@@ -7,7 +7,8 @@ const useSocket = () => {
   const [connected, setConnected] = useState<boolean>(false);
 
   useEffect(() => {
-    socket = io("https://mern-gym-managment-system.onrender.com");
+    // socket = io("https://mern-gym-managment-system.onrender.com");
+    socket = io("http://localhost:5000");
 
     socket.on("connect", () => {
       setConnected(true);
