@@ -42,19 +42,19 @@
 ## 📸 Screenshots
 
 ![Admin Dash](/screenshots/admin-dash.png)  
-_Home feed with user posts_
+_Admin Dashboard_
 
 ![Client Messaging](/screenshots/client-messaging.png)  
-_Create a new post_
+_Trainer and client real time messaging_
 
 ![Creating Payments](/screenshots/creating-payment.png)  
-_User profile with posts and stats_
+_Selling products_
 
 ![Reciept](/screenshots/reciept.png)  
-_Dark mode enabled_
+_reciept_
 
 ![Profile](/screenshots/profile.png)  
-_Comments section on a post_
+_User Profile_
 
 ![User Managment](/screenshots/user-managment.png)  
-_Manage followers and following_
+_Manage users_
